@@ -26,3 +26,9 @@ To reproduce the experimental results, users should follow the steps below:
 * Set the training configuration parameters (e.g., number of surrounding ADS vehicles) in the ```npc_train/config.yaml``` file
 * Train a style-specific controller on a designated road type. For example, to train an aggressive controller on a straight road: <br />
   ```python npc_train/train/aggressive_straight.py ```
+
+### Generating the Critical Scenarios
+* Set the searching configuration parameters (e.g., number of NPC vehicles) in the ```main_ga/config.yaml``` file
+* Search the critical scenarios: <br />
+ ```python main_ga/main.py ```
+
